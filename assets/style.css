@@ -1,0 +1,31 @@
+@import url('fonts/fonts.css');
+
+/* These styles make the body full-height */
+html,
+body,
+#react-native-web-app {
+  min-height: var(--full-height);
+  max-height: var(--full-height);
+  /* max-width: min(100vw, 575px); */
+  min-width: 280px;
+  margin: 0 auto;
+}
+/* These styles disable body scrolling if you are using <ScrollView> */
+body {
+  overflow: hidden;
+  background-color: #f8f8fa;
+}
+
+/* These styles make the react-native-web-app element flex and column wise filling */
+#react-native-web-app {
+  display: flex;
+  flex-direction: column;
+}
+
+:focus-visible {
+  outline: none;
+}
+
+:root {
+  --full-height: 100vh;
+}

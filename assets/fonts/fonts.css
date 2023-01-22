@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Fedra-Medium';
+  src: url('Fedra-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Fedra-Bold';
+  src: url('Fedra-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Fedra-Demi';
+  src: url('Fedra-Demi.otf') format('opentype');
+}
